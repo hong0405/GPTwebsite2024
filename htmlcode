@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>교사의 교육 페이지</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .header, .footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+        .nav {
+            background: #444;
+            color: white;
+            padding: 1em;
+            text-align: center;
+        }
+        .nav a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+        .container {
+            padding: 20px;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border: 5px solid #fff;
+        }
+        .board, .gallery, .courses {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>환영합니다: 교사의 교육 페이지</h1>
+    </div>
+
+    <div class="nav">
+        <a href="#courses">자격증 코스</a>
+        <a href="#study-materials">공부법 및 교재</a>
+        <a href="#qna">Q&A 게시판</a>
+        <a href="#gallery">사진 갤러리</a>
+        <a href="#job-postings">취업 공고</a>
+    </div>
+
+    <div class="container">
+        <div id="courses" class="courses">
+            <h2>자격증 코스 및 유튜브 강의</h2>
+            <!-- 코스 내용 -->
+        </div>
+
+        <div id="study-materials" class="materials">
+            <h2>공부법 및 교재</h2>
+            <!-- 공부법 및 교재 내용 -->
+        </div>
+
+        <div id="qna" class="board">
+            <h2>Q&A 게시판</h2>
+            <!-- Q&A 게시판 내용 -->
+        </div>
+
+        <div id="gallery" class="gallery">
+            <h2>사진 갤러리</h2>
+            <!-- 갤러리 이미지 -->
+        </div>
+
+        <div id="job-postings" class="board">
+            <h2>취업 공고 및 선취업후진학 게시판</h2>
+            <!-- 취업 공고 내용 -->
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>© 2024 교사의 교육 페이지. 모든 권리 보유.</p>
+    </div>
+</body>
+</html>
